@@ -4,5 +4,32 @@ html {
 
             body {
                 background-color: #333;
-                color: whitesmoke;
+                color: #00bfff;
             }
+
+ a {
+                color: #00bfff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #ff9100
+            }
+
+            h1, h2, h3 {
+                color: #00bfff;
+            }
+
+            section {
+                background-color: #444;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+
+            hr {
+                border: none;
+                height: 1px;
+                background-color: #555;
+            }
+         
