@@ -4,11 +4,11 @@ html {
 
             body {
                 background-color: #333;
-                color: #00bfff;
+                color: #eee;
             }
 
  a {
-                color: #00bfff;
+                color: #eee;
                 text-decoration: none;
             }
 
@@ -17,7 +17,7 @@ html {
             }
 
             h1, h2, h3 {
-                color: #00bfff;
+                color: #eee;
             }
 
             section {
@@ -32,4 +32,9 @@ html {
                 height: 1px;
                 background-color: #555;
             }
-         
+            table, tr, th, td, caption {
+                border: 1px solid #eee;
+                font-family: 'Courier New', Courier, monospace;
+                border-collapse: collapse;
+                padding: 0.5rem;
+            }
